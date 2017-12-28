@@ -1,5 +1,61 @@
-   .uk-section-main {
-    background-color: #1f1b1a;
-    min-height: 100vh;
+.uk-section-main {
+  background-color: #1f1b1a;
+  min-height: 100vh;
+  padding: 0;
+  .uk-section-main-content-wrap {
+    padding: 80px 0 40px;
+    display: flex;
+    .uk-main-content {
+      width: ~"calc(100% - 370px)";
+      padding-top: 50px;
+      .uk-section-content-text {
+        h1 {
+          color: #ffffff;
+          font-family: "Greta Text Pro";
+          font-size: 58px;
+          font-weight: 500;
+          line-height: 54px;
+          letter-spacing: -0.87px;
+          max-width: 600px;
+          margin-bottom: 30px;
+        }
+        p {
+          color: #ffffff;
+          font-family: "Blogger Sans";
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          max-width: 480px;
+          margin-bottom: 25px;
+        }
+        .uk-watches-add-block {
+          display: flex;
+          .add-new-watch {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            .uk-button {
+              margin-bottom: 20px;
+              color: #fff;
+            }
+            span {
+              color: #a89e97;
+              font-family: "Blogger Sans";
+              font-size: 15px;
+              line-height: 18px;
+              letter-spacing: 0.07px;
+            }
+          }
+        }
+      }
+    }
+    .uk-main-sidebar {
+      width: 370px;
+    }
   }
+}
 
