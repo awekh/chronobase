@@ -7,6 +7,7 @@
     <title>"Chronobase — это новое слово в защите элитных часов"</title>
     <link rel="icon" type="image/ico" href="img/favicon.ico"/>
     <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Raleway:300,400,500,700" rel="stylesheet">
 </head>
 
 <body>
@@ -23,7 +24,7 @@
                                     <img src="img/logo.svg"/>
                                 </a>
                             </div>
-                            <nav class="header-nav">
+                            <ul class="header-nav">
                                 <li>
                                     <a href="#">About</a>
                                 </li>
@@ -39,16 +40,16 @@
                                 <li>
                                     <a href="#">FAQ</a>
                                 </li>
-                            </nav>
+                            </ul>
                             <div class="header-subnav">
-                                <nav class="header-nav-secondary">
+                                <ul class="header-nav-secondary">
                                     <li>
                                         <a href="#">Whitepaper</a>
                                     </li>
                                     <li>
                                         <a href="#">Bounty</a>
                                     </li>
-                                </nav>
+                                </ul>
                             </div>
                         </div>
                         <div class="sign-in">
@@ -86,7 +87,7 @@
                                 владения.</p>
                             <div class="uk-watches-add-block">
                                 <div class="uk-add-new-watch">
-                                    <a href="#" class="uk-button uk-button-primary">Добавить часы</a>
+                                    <a href="#" class="uk-button">Добавить часы</a>
                                     <span>Бесплатно для покупателей токенов. <br> 23 440 часов уже в Chronobase.</span>
                                 </div>
                                 <div class="added-brands">
@@ -102,6 +103,79 @@
                                         </li>
                                     </ul>
                                     <span>Уже поддерживают ChronoBase</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-helpful-block">
+                            <ul class="uk-help-list">
+                                <li>
+                                    <h3 class="uk-help-title">Приложения для защиты</h3>
+                                    <div class="uk-help-links">
+                                        <a href="">
+                                            <img src="img/appStore.png" alt="">
+                                        </a>
+                                        <a href="">
+                                            <img src="img/googlePlay.png" alt="">
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3 class="uk-help-title">Зачем защищать часы?</h3>
+                                    <div class="uk-help-wrap">
+                                        <img src="img/youtube.png" alt="">
+                                        <div class="uk-help-text">
+                                            <a href="#">Посмотреть видео</a>
+                                            <span>3 мин 45 сек</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h3 class="uk-help-title">Как это работает?</h3>
+                                    <div class="uk-help-wrap">
+                                        <img src="img/search.png" alt="">
+                                        <div class="uk-help-text">
+                                            <span>В базе уже 23 534 часов</span>
+                                            <a href="#">Проверьте как это работает</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="uk-main-sidebar">
+                        <div class="uk-bonus-presale-block">
+                            <div class="uk-block-header">
+                                <div class="uk-block-title">
+                                    <div class="uk-presale-text">
+                                        <h4>Bonus Presale</h4>
+                                        <span>ends in:</span>
+                                    </div>
+                                    <div class="uk-presale-label">
+                                        <span class="uk-label">+30%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-block-body">
+                                <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2018-01-10T09:46:20+00:00">
+                                    <div>
+                                        <div class="uk-countdown-number uk-countdown-days"></div>
+                                        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+                                    </div>
+                                    <div class="uk-countdown-separator">:</div>
+                                    <div>
+                                        <div class="uk-countdown-number uk-countdown-hours"></div>
+                                        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+                                    </div>
+                                    <div class="uk-countdown-separator">:</div>
+                                    <div>
+                                        <div class="uk-countdown-number uk-countdown-minutes"></div>
+                                        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+                                    </div>
+                                    <div class="uk-countdown-separator">:</div>
+                                    <div>
+                                        <div class="uk-countdown-number uk-countdown-seconds"></div>
+                                        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -121,6 +195,8 @@
 
 </div>
 <!-- scripts -->
+<script src="../../../dist/js/uikit-core.js"></script>
+<script src="../../../dist/js/uikit.js"></script>
 <script src="js/main.js"></script>
 </body>
 
